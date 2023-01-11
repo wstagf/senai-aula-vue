@@ -11,7 +11,7 @@ var vm = new Vue({
         }
     },
     computed: {
-        publishedBooksMessage() {
+        quantidadeDeLivros() {
             return this.author.books.length > 10 ? 'Yes' : 'No'
         }
     }
